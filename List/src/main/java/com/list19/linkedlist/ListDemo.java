@@ -1,4 +1,4 @@
-package com.list19;
+package com.list19.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;

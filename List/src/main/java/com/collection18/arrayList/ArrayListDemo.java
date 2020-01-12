@@ -17,7 +17,7 @@ public class ArrayListDemo {
         ArrayList<Integer> array=new ArrayList<>();
         array.add(1);
         array.add(2);
-        array.add(14);
+        array.add(3);
         for(int i=0;i<array.size();i++){
             System.out.println(array.get(i));
         }
