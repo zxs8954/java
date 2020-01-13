@@ -10,9 +10,30 @@ import java.util.Map;
  * */
 public class HashMapDemo {
     public static void main(String[] args) {
-        function();
+        function_1();
     }
-
+    /*
+    * HashMap存储自定义对象Person，作为键出现
+    * 键的对象是Person类型，只是字符串
+    * 保证键的唯一性，存储到键的对象时，重写hashCode equals
+    * */
+    public static void function_1(){
+        HashMap<Person,String> map=new HashMap<Person,String>();
+        map.put(new Person("a",20),"里约热内卢");
+        map.put(new Person("a",20),"里约热内卢");
+        map.put(new Person("a",20),"里约热内卢");
+        map.put(new Person("a",20),"里约热内卢");
+        map.put(new Person("b",21),"索马里");
+        map.put(new Person("c",22),"百慕大");
+        for(Person key:map.keySet()){
+            String value=map.get(key);
+            System.out.println(key+value);
+        }
+        System.out.println("==============");
+        for(Map.Entry<Person,String> entry:map.entrySet()){
+            System.out.println(entry.getKey()+entry.getValue());
+        }
+    }
     /*
      * 存储自定义对象Person，作为值出现
      * 键的对象，是字符串，可以保证唯一性
