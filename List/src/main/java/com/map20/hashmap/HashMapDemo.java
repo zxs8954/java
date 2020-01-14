@@ -22,7 +22,7 @@ public class HashMapDemo {
         map.put(new Person("a",20),"里约热内卢");
         map.put(new Person("a",20),"里约热内卢");
         map.put(new Person("a",20),"里约热内卢");
-        map.put(new Person("a",20),"里约热内卢");
+        map.put(new Person("aaa",20),"里约热内卢");
         map.put(new Person("b",21),"索马里");
         map.put(new Person("c",22),"百慕大");
         for(Person key:map.keySet()){
