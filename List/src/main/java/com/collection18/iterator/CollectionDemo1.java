@@ -8,7 +8,7 @@ public class CollectionDemo1 {
     public static void main(String[] args) {
         //集合可以存储任意类型的对象
         //集合中不指定存储的数据类型，集合什么都存
-        Collection coll=new ArrayList<>();
+        Collection coll=new ArrayList();
         coll.add("abcasdad");
         coll.add("bcd");
         //迭代器获取

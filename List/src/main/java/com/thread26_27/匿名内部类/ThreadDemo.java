@@ -1,7 +1,5 @@
 package com.thread26_27.匿名内部类;
 
-import java.text.RuleBasedCollator;
-
 /*
  * 使用匿名内部类，实现多线程程序
  * 前提：继承或者接口实现

@@ -14,7 +14,7 @@ public class ArrayListDemo {
         * 集合ArrayList存储int类型
         * 集合本身不接受基本类，自动装箱
         * */
-        ArrayList<Integer> array=new ArrayList<>();
+        ArrayList<Integer> array=new ArrayList<Integer>();
         array.add(1);
         array.add(2);
         array.add(3);

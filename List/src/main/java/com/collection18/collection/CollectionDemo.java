@@ -75,7 +75,7 @@ public class CollectionDemo {
     public static void function() {
         //有序结合，1、set是无序，不允许重复 2、list,可以重复，有序
         //接口多态方式调用
-        Collection<String> coll = new ArrayList<>();//多态调用，走子类重写
+        Collection<String> coll = new ArrayList<String>();//多态调用，走子类重写
         coll.add("abc");
         coll.add("bcd");
         coll.clear();

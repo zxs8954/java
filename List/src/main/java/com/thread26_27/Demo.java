@@ -4,7 +4,7 @@ package com.thread26_27;
 * */
 public class Demo {
     public static void main(String[] args) {
-        System.out.println(0/0);//主线程main
+       // System.out.println(0/0);//主线程main
         function();
         System.out.println(Math.abs(-9));
     }

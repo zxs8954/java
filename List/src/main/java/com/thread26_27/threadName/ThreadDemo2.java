@@ -8,13 +8,15 @@ package com.thread26_27.threadName;
  * JVM开启主线程，运行方法main,主线程也是线程，是线程就是Thread的对象
  * Thread类中，静态方法
  *  static Thread currentThread()返回正在执行的线程对象
+ *
+ * 静态不能调用非静态
  * */
 public class ThreadDemo2 {
     public static void main(String[] args) {
         NameThread nt = new NameThread();
         //nt.setName("旺财");
         nt.start();
-        Thread t = Thread.currentThread();
-        System.out.println(t.getName());
+System.out.println(Thread.currentThread().getName());
+
     }
 }
