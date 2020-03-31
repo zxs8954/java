@@ -8,5 +8,5 @@ package com.list19.set.hashset.hash;
 *       2个对象的哈希值一定相同吗       一定
 * */
 public class HashDemo4 {
-    ss
+
 }
