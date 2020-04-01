@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="123">
+    <test name="123">
+        <classes>
+            <class name="com.uiAuto.Demo2">
+                <methods>
+                    <include name="mouse"/>
+<!--                    <include name="login"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
