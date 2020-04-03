@@ -12,26 +12,8 @@ public class ConfigFile {
         String url = bundle.getString("url");
         String uri = "";
         String testUrl;
-        if (tableName == TableName.GETPOETRY) {
-            uri = bundle.getString("getPoetry");
-        }
-        if (tableName == TableName.GETWEATHERDATA) {
-            uri = bundle.getString("getWeatherData");
-        }
-        if (tableName == TableName.GETLUNAR) {
-            uri = bundle.getString("getLunar");
-        }
-        if (tableName == TableName.GETOLDALMANAC) {
-            uri = bundle.getString("getOldAlmanac");
-        }
-        if (tableName == TableName.GETBINGDAYPIC) {
-            uri = bundle.getString("getBingDayPic");
-        }
-        if (tableName == TableName.GETHITOKOTO) {
-            uri = bundle.getString("getHitokoto");
-        }
-        if (tableName == TableName.GETSOLTERMS) {
-            uri = bundle.getString("getSolarTerms");
+        if (tableName == TableName.COLUMN) {
+            uri = bundle.getString("column");
         }
         testUrl = url + uri;
         return testUrl;
